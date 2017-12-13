@@ -1,0 +1,13 @@
+/* 它允许网页开发者为其网页指定在线字体。 通过这种作者自备字体的方式，@font-face 可以消除对用户电脑字体的依赖。 */
+@font-face{
+    font-family: 'special';
+    src: url('./Special.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hello{
+    color: red;
+    font-family: 'special';
+    background: url('./icon.jpg')
+}
